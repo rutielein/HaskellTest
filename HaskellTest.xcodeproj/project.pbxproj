@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB096F101B732FE200E8C36B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB096F0F1B732FE200E8C36B /* AppDelegate.m */; };
+		CB096F121B732FE200E8C36B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB096F111B732FE200E8C36B /* main.m */; };
+		CB096F141B732FE200E8C36B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB096F131B732FE200E8C36B /* Images.xcassets */; };
+		CB096F171B732FE200E8C36B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB096F151B732FE200E8C36B /* MainMenu.xib */; };
+		CB096F231B732FE200E8C36B /* HaskellTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB096F221B732FE200E8C36B /* HaskellTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB096F1D1B732FE200E8C36B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB096F011B732FE200E8C36B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB096F081B732FE200E8C36B;
+			remoteInfo = HaskellTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB096F091B732FE200E8C36B /* HaskellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaskellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB096F0D1B732FE200E8C36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB096F0E1B732FE200E8C36B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB096F0F1B732FE200E8C36B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB096F111B732FE200E8C36B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB096F131B732FE200E8C36B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB096F161B732FE200E8C36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CB096F1C1B732FE200E8C36B /* HaskellTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaskellTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB096F211B732FE200E8C36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB096F221B732FE200E8C36B /* HaskellTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaskellTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB096F061B732FE200E8C36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB096F191B732FE200E8C36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB096F001B732FE200E8C36B = {
+			isa = PBXGroup;
+			children = (
+				CB096F0B1B732FE200E8C36B /* HaskellTest */,
+				CB096F1F1B732FE200E8C36B /* HaskellTestTests */,
+				CB096F0A1B732FE200E8C36B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB096F0A1B732FE200E8C36B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB096F091B732FE200E8C36B /* HaskellTest.app */,
+				CB096F1C1B732FE200E8C36B /* HaskellTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB096F0B1B732FE200E8C36B /* HaskellTest */ = {
+			isa = PBXGroup;
+			children = (
+				CB096F0E1B732FE200E8C36B /* AppDelegate.h */,
+				CB096F0F1B732FE200E8C36B /* AppDelegate.m */,
+				CB096F131B732FE200E8C36B /* Images.xcassets */,
+				CB096F151B732FE200E8C36B /* MainMenu.xib */,
+				CB096F0C1B732FE200E8C36B /* Supporting Files */,
+			);
+			path = HaskellTest;
+			sourceTree = "<group>";
+		};
+		CB096F0C1B732FE200E8C36B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB096F0D1B732FE200E8C36B /* Info.plist */,
+				CB096F111B732FE200E8C36B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB096F1F1B732FE200E8C36B /* HaskellTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB096F221B732FE200E8C36B /* HaskellTestTests.m */,
+				CB096F201B732FE200E8C36B /* Supporting Files */,
+			);
+			path = HaskellTestTests;
+			sourceTree = "<group>";
+		};
+		CB096F201B732FE200E8C36B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB096F211B732FE200E8C36B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB096F081B732FE200E8C36B /* HaskellTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB096F261B732FE200E8C36B /* Build configuration list for PBXNativeTarget "HaskellTest" */;
+			buildPhases = (
+				CB096F051B732FE200E8C36B /* Sources */,
+				CB096F061B732FE200E8C36B /* Frameworks */,
+				CB096F071B732FE200E8C36B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaskellTest;
+			productName = HaskellTest;
+			productReference = CB096F091B732FE200E8C36B /* HaskellTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB096F1B1B732FE200E8C36B /* HaskellTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB096F291B732FE200E8C36B /* Build configuration list for PBXNativeTarget "HaskellTestTests" */;
+			buildPhases = (
+				CB096F181B732FE200E8C36B /* Sources */,
+				CB096F191B732FE200E8C36B /* Frameworks */,
+				CB096F1A1B732FE200E8C36B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB096F1E1B732FE200E8C36B /* PBXTargetDependency */,
+			);
+			name = HaskellTestTests;
+			productName = HaskellTestTests;
+			productReference = CB096F1C1B732FE200E8C36B /* HaskellTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB096F011B732FE200E8C36B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kuuma_production;
+				TargetAttributes = {
+					CB096F081B732FE200E8C36B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CB096F1B1B732FE200E8C36B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CB096F081B732FE200E8C36B;
+					};
+				};
+			};
+			buildConfigurationList = CB096F041B732FE200E8C36B /* Build configuration list for PBXProject "HaskellTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB096F001B732FE200E8C36B;
+			productRefGroup = CB096F0A1B732FE200E8C36B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB096F081B732FE200E8C36B /* HaskellTest */,
+				CB096F1B1B732FE200E8C36B /* HaskellTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB096F071B732FE200E8C36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB096F141B732FE200E8C36B /* Images.xcassets in Resources */,
+				CB096F171B732FE200E8C36B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB096F1A1B732FE200E8C36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB096F051B732FE200E8C36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB096F121B732FE200E8C36B /* main.m in Sources */,
+				CB096F101B732FE200E8C36B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB096F181B732FE200E8C36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB096F231B732FE200E8C36B /* HaskellTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB096F1E1B732FE200E8C36B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB096F081B732FE200E8C36B /* HaskellTest */;
+			targetProxy = CB096F1D1B732FE200E8C36B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB096F151B732FE200E8C36B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB096F161B732FE200E8C36B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB096F241B732FE200E8C36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB096F251B732FE200E8C36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB096F271B732FE200E8C36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HaskellTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB096F281B732FE200E8C36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HaskellTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB096F2A1B732FE200E8C36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaskellTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaskellTest.app/Contents/MacOS/HaskellTest";
+			};
+			name = Debug;
+		};
+		CB096F2B1B732FE200E8C36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaskellTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaskellTest.app/Contents/MacOS/HaskellTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB096F041B732FE200E8C36B /* Build configuration list for PBXProject "HaskellTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB096F241B732FE200E8C36B /* Debug */,
+				CB096F251B732FE200E8C36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB096F261B732FE200E8C36B /* Build configuration list for PBXNativeTarget "HaskellTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB096F271B732FE200E8C36B /* Debug */,
+				CB096F281B732FE200E8C36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB096F291B732FE200E8C36B /* Build configuration list for PBXNativeTarget "HaskellTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB096F2A1B732FE200E8C36B /* Debug */,
+				CB096F2B1B732FE200E8C36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB096F011B732FE200E8C36B /* Project object */;
+}
